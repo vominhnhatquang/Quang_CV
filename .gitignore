@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Office lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx

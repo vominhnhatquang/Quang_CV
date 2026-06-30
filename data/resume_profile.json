@@ -8,7 +8,7 @@
     "location": "Ho Chi Minh City, Vietnam",
     "github": "https://github.com/vominhnhatquang",
     "huggingface": "https://huggingface.co/Nhat-Quang",
-    "photo": "assets/profile_from_previous_cv_1_1.png",
+    "photo": "assets/profile_circle.png",
     "summary": "Third-year Artificial Intelligence student at FPT University, focused on practical AI systems: RAG, recommendation, model validation, data pipelines, and deployable web apps. Comfortable with agent-assisted coding workflows such as Pi.dev, using agents for planning, debugging, code review, and documentation while keeping work reviewable."
   },
   "education": [

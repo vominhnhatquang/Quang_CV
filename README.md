@@ -4,11 +4,12 @@ Generated compact CV package for Võ Minh Nhật Quang.
 
 ## Files
 
-- `outputs/Vo_Minh_Nhat_Quang_CV.pdf` — compact PDF version with profile photo.
-- `outputs/Vo_Minh_Nhat_Quang_CV_Compact.docx` — editable Microsoft Word version.
+- `outputs/Vo_Minh_Nhat_Quang_CV_Round.pdf` — compact PDF version with circular profile photo.
+- `outputs/Vo_Minh_Nhat_Quang_CV_Round.docx` — editable Microsoft Word version with circular profile photo.
 - `outputs/Vo_Minh_Nhat_Quang_CV.md` — source Markdown version.
 - `website/` — static CV website, including downloadable copies under `website/downloads/`.
 - `assets/profile_from_previous_cv_1_1.png` — profile image extracted from the previous CV PDF.
+- `assets/profile_circle.png` — circular/framed profile image used in current outputs.
 - `data/resume_profile.json` — structured resume profile used to render the CV.
 - `.github/workflows/pages.yml` — GitHub Actions workflow for GitHub Pages deployment.
 
