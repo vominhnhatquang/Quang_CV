@@ -4,7 +4,7 @@ Generated compact CV package for Võ Minh Nhật Quang.
 
 ## Files
 
-- `outputs/Vo_Minh_Nhat_Quang_CV_Round.pdf` — compact PDF version with circular profile photo.
+- `outputs/Vo_Minh_Nhat_Quang_CV_Balanced.pdf` — balanced one-page PDF version with circular profile photo.
 - `outputs/Vo_Minh_Nhat_Quang_CV_Round.docx` — editable Microsoft Word version with circular profile photo.
 - `outputs/Vo_Minh_Nhat_Quang_CV.md` — source Markdown version.
 - `website/` — static CV website, including downloadable copies under `website/downloads/`.
