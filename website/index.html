@@ -1,0 +1,73 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>Võ Minh Nhật Quang — CV</title><meta name='description' content='AI Engineer Intern Candidate CV'><link rel='stylesheet' href='styles.css'></head><body><main class='wrap'>
+<section class='hero'><h1>Võ Minh Nhật Quang</h1><div class='role'>AI Engineer Intern Candidate | AI Systems &amp; Full-stack ML Projects</div><p>Second-year Artificial Intelligence student at FPT University, building practical AI systems across RAG, recommendation, model validation, data pipelines, and production-style web deployment. Strong learning mindset with hands-on Python/TypeScript projects, vector search, graph retrieval, QLoRA/LoRA adapters, and clear technical documentation.</p><div class='contact'><span>Ho Chi Minh City, Vietnam</span><span>+84 902 304 205</span><a href='mailto:vominhnhatquang@gmail.com'>vominhnhatquang@gmail.com</a><a href='https://github.com/vominhnhatquang'>GitHub</a><a href='https://huggingface.co/Nhat-Quang'>Hugging Face</a></div></section>
+<div class='grid two'><section class='card'><h2>Education</h2>
+<p><strong>FPT University HCMC</strong><br>Bachelor program in Artificial Intelligence<br>2024–2027</p>
+<h2>Skills</h2><div class='skills'>
+<span class='pill'>RAG</span>
+<span class='pill'>hybrid search</span>
+<span class='pill'>Qdrant</span>
+<span class='pill'>BM25</span>
+<span class='pill'>model validation</span>
+<span class='pill'>regression</span>
+<span class='pill'>Qwen/Gemma LoRA</span>
+<span class='pill'>QLoRA</span>
+<span class='pill'>embeddings</span>
+<span class='pill'>retrieval evaluation</span>
+<span class='pill'>Python</span>
+<span class='pill'>FastAPI</span>
+<span class='pill'>Flask</span>
+<span class='pill'>Pydantic</span>
+<span class='pill'>PostgreSQL</span>
+<span class='pill'>Redis</span>
+<span class='pill'>Celery</span>
+<span class='pill'>Google Sheets API</span>
+<span class='pill'>data scraping</span>
+<span class='pill'>quality gates</span>
+<span class='pill'>TypeScript</span>
+<span class='pill'>Next.js</span>
+<span class='pill'>React</span>
+<span class='pill'>Tailwind CSS</span>
+<span class='pill'>Vite</span>
+<span class='pill'>Docker Compose</span>
+<span class='pill'>Cloudflare Workers/OpenNext</span>
+<span class='pill'>GitHub Actions</span>
+<span class='pill'>Git/GitHub</span>
+<span class='pill'>Hugging Face Hub</span>
+<span class='pill'>DVC</span>
+<span class='pill'>Makefile</span>
+<span class='pill'>Playwright</span>
+<span class='pill'>Vitest</span>
+<span class='pill'>ESLint</span>
+<span class='pill'>Photoshop</span>
+<span class='pill'>InDesign</span>
+<span class='pill'>Illustrator</span>
+</div></section><section class='card'><h2>Downloads</h2><div class='downloads'><a class='btn' href='downloads/Vo_Minh_Nhat_Quang_CV.pdf'>PDF CV</a><a class='btn alt' href='downloads/Vo_Minh_Nhat_Quang_CV.docx'>DOCX CV</a><a class='btn alt' href='downloads/Vo_Minh_Nhat_Quang_CV.md'>Markdown</a></div><p class='meta'>Static CV site, deployable by GitHub Actions from the <code>website/</code> folder.</p></section></div>
+<section class='card' style='margin-top:20px'><h2>Selected Projects</h2>
+<article class='project'><h3>OutfitMatch — AI Fashion Stylist</h3><div class='meta'>Private GitHub + public HF artifacts · Python, Qdrant, graph retrieval, QLoRA, Qwen, fashion recommendation</div><ul>
+<li>Built core data/knowledge-base path for a Vietnamese fashion recommendation system: catalog scraping, semantic item tagging, sparse item-compatibility graph, retrieval, quiz reranking, and size suggestions.</li>
+<li>Validated 5,618 catalog items and item-store links; latest audit reports 0 invalid rows and graph KB with 4,694 adult nodes and 316,559 canonical edges.</li>
+<li>Published Hugging Face artifacts for OutfitMatch LoRA adapters on Qwen/Gemma variants and a VN_Fashion_data dataset snapshot for reproducible project data.</li>
+</ul></article>
+<article class='project'><h3><a href='https://github.com/vominhnhatquang/MultiAgent_RAG'>RAG Chatbot — Document Q&amp;A</a></h3><div class='meta'>Public · FastAPI, Next.js, Qdrant, PostgreSQL, Redis, Docker, RAG</div><ul>
+<li>Implemented a document Q&amp;A system with PDF/DOCX/MD/TXT ingestion, Celery async processing, hybrid vector + BM25 retrieval, Reciprocal Rank Fusion, HyDE transform, strict guard threshold, and SSE streaming answers with citations.</li>
+<li>Designed a containerized 8-service architecture under a 10GB RAM budget, including FastAPI backend, Next.js frontend, Qdrant, PostgreSQL, Redis, Celery worker, and LLM routing.</li>
+</ul></article>
+<article class='project'><h3>ORICAVI Coffee Website</h3><div class='meta'>Private · Next.js 15, React 19, TypeScript, Cloudflare, Playwright, Vitest</div><ul>
+<li>Developed a static-first production website foundation with typed route/content boundaries, release-mode adapters, contact API seams, security/cache artifacts, and validation commands for lint, typecheck, tests, build, E2E smoke, and Lighthouse.</li>
+<li>Prepared Cloudflare Workers/OpenNext deployment flow with explicit preview/production build gates and secret-management boundaries.</li>
+</ul></article>
+<article class='project'><h3>Gisdio CMS / Website Admin</h3><div class='meta'>Private · React, Vite, Node.js, Express, RBAC, CMS</div><ul>
+<li>Built an admin dashboard for visual website content management, media/blog workflows, 3-role RBAC, live preview, and static HTML export.</li>
+<li>Structured frontend/backend modules with developer and user guides for maintainable handoff.</li>
+</ul></article>
+<article class='project'><h3><a href='https://github.com/vominhnhatquang/Predict-Jartest_N_SONG_KN-by-Antigravity'>Water Quality Prediction Web App</a></h3><div class='meta'>Public · Jupyter, scikit-learn, Flask, regression, GridSearchCV</div><ul>
+<li>Created an end-to-end ML pipeline for water-quality regression, comparing Linear/Ridge/Lasso/ElasticNet/Random Forest/Gradient Boosting models with reproducible 80/10/10 train-validation-test split.</li>
+<li>Exported trained model artifacts and exposed predictions through a Flask API with a responsive web interface.</li>
+</ul></article>
+<article class='project'><h3>Hanet to Google Sheets Webhook</h3><div class='meta'>Private · Python, Flask, Google Sheets API, webhook, retry logic</div><ul>
+<li>Implemented a webhook service that receives Hanet check-in/device/face/place events, validates hashes/IDs, de-duplicates events, retries Google Sheets writes, and logs operational details.</li>
+</ul></article>
+</section><section class='card' style='margin-top:20px'><h2>Hugging Face</h2><ul>
+<li><strong>VN_Fashion_data</strong> — Dataset snapshot for OutfitMatch; 5,618 catalog items, Vietnamese fashion/e-commerce tags. <a href='https://huggingface.co/datasets/Nhat-Quang/VN_Fashion_data'>Link</a></li>
+<li><strong>OutfitMatch LoRA adapters</strong> — Public PEFT/LoRA adapters for OutfitMatch stylist experiments on Qwen/Qwen-VL/Gemma variants. <a href='https://huggingface.co/Nhat-Quang'>Link</a></li>
+</ul></section></main></body></html>

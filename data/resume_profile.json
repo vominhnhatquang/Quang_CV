@@ -1,0 +1,212 @@
+{
+  "basics": {
+    "name": "Võ Minh Nhật Quang",
+    "label": "AI Engineer Intern Candidate | AI Systems & Full-stack ML Projects",
+    "email": "vominhnhatquang@gmail.com",
+    "phone": "+84 902 304 205",
+    "location": "Ho Chi Minh City, Vietnam",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "vominhnhatquang",
+        "url": "https://github.com/vominhnhatquang"
+      },
+      {
+        "network": "Hugging Face",
+        "username": "Nhat-Quang",
+        "url": "https://huggingface.co/Nhat-Quang"
+      }
+    ],
+    "summary": "Second-year Artificial Intelligence student at FPT University, building practical AI systems across RAG, recommendation, model validation, data pipelines, and production-style web deployment. Strong learning mindset with hands-on Python/TypeScript projects, vector search, graph retrieval, QLoRA/LoRA adapters, and clear technical documentation."
+  },
+  "education": [
+    {
+      "institution": "FPT University HCMC",
+      "studyType": "Bachelor program",
+      "area": "Artificial Intelligence",
+      "startDate": "2024",
+      "endDate": "2027"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI / ML",
+      "keywords": [
+        "RAG",
+        "hybrid search",
+        "Qdrant",
+        "BM25",
+        "model validation",
+        "regression",
+        "Qwen/Gemma LoRA",
+        "QLoRA",
+        "embeddings",
+        "retrieval evaluation"
+      ]
+    },
+    {
+      "name": "Backend / Data",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Pydantic",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "Google Sheets API",
+        "data scraping",
+        "quality gates"
+      ]
+    },
+    {
+      "name": "Frontend / Deployment",
+      "keywords": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "Docker Compose",
+        "Cloudflare Workers/OpenNext",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git/GitHub",
+        "Hugging Face Hub",
+        "DVC",
+        "Makefile",
+        "Playwright",
+        "Vitest",
+        "ESLint",
+        "Photoshop",
+        "InDesign",
+        "Illustrator"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "OutfitMatch — AI Fashion Stylist",
+      "visibility": "Private GitHub + public HF artifacts",
+      "url": "",
+      "period": "2026",
+      "keywords": [
+        "Python",
+        "Qdrant",
+        "graph retrieval",
+        "QLoRA",
+        "Qwen",
+        "fashion recommendation"
+      ],
+      "highlights": [
+        "Built core data/knowledge-base path for a Vietnamese fashion recommendation system: catalog scraping, semantic item tagging, sparse item-compatibility graph, retrieval, quiz reranking, and size suggestions.",
+        "Validated 5,618 catalog items and item-store links; latest audit reports 0 invalid rows and graph KB with 4,694 adult nodes and 316,559 canonical edges.",
+        "Published Hugging Face artifacts for OutfitMatch LoRA adapters on Qwen/Gemma variants and a VN_Fashion_data dataset snapshot for reproducible project data."
+      ]
+    },
+    {
+      "name": "RAG Chatbot — Document Q&A",
+      "visibility": "Public",
+      "url": "https://github.com/vominhnhatquang/MultiAgent_RAG",
+      "period": "2026",
+      "keywords": [
+        "FastAPI",
+        "Next.js",
+        "Qdrant",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "RAG"
+      ],
+      "highlights": [
+        "Implemented a document Q&A system with PDF/DOCX/MD/TXT ingestion, Celery async processing, hybrid vector + BM25 retrieval, Reciprocal Rank Fusion, HyDE transform, strict guard threshold, and SSE streaming answers with citations.",
+        "Designed a containerized 8-service architecture under a 10GB RAM budget, including FastAPI backend, Next.js frontend, Qdrant, PostgreSQL, Redis, Celery worker, and LLM routing."
+      ]
+    },
+    {
+      "name": "ORICAVI Coffee Website",
+      "visibility": "Private",
+      "url": "",
+      "period": "2026",
+      "keywords": [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "Cloudflare",
+        "Playwright",
+        "Vitest"
+      ],
+      "highlights": [
+        "Developed a static-first production website foundation with typed route/content boundaries, release-mode adapters, contact API seams, security/cache artifacts, and validation commands for lint, typecheck, tests, build, E2E smoke, and Lighthouse.",
+        "Prepared Cloudflare Workers/OpenNext deployment flow with explicit preview/production build gates and secret-management boundaries."
+      ]
+    },
+    {
+      "name": "Gisdio CMS / Website Admin",
+      "visibility": "Private",
+      "url": "",
+      "period": "2026",
+      "keywords": [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "RBAC",
+        "CMS"
+      ],
+      "highlights": [
+        "Built an admin dashboard for visual website content management, media/blog workflows, 3-role RBAC, live preview, and static HTML export.",
+        "Structured frontend/backend modules with developer and user guides for maintainable handoff."
+      ]
+    },
+    {
+      "name": "Water Quality Prediction Web App",
+      "visibility": "Public",
+      "url": "https://github.com/vominhnhatquang/Predict-Jartest_N_SONG_KN-by-Antigravity",
+      "period": "2026",
+      "keywords": [
+        "Jupyter",
+        "scikit-learn",
+        "Flask",
+        "regression",
+        "GridSearchCV"
+      ],
+      "highlights": [
+        "Created an end-to-end ML pipeline for water-quality regression, comparing Linear/Ridge/Lasso/ElasticNet/Random Forest/Gradient Boosting models with reproducible 80/10/10 train-validation-test split.",
+        "Exported trained model artifacts and exposed predictions through a Flask API with a responsive web interface."
+      ]
+    },
+    {
+      "name": "Hanet to Google Sheets Webhook",
+      "visibility": "Private",
+      "url": "",
+      "period": "2025",
+      "keywords": [
+        "Python",
+        "Flask",
+        "Google Sheets API",
+        "webhook",
+        "retry logic"
+      ],
+      "highlights": [
+        "Implemented a webhook service that receives Hanet check-in/device/face/place events, validates hashes/IDs, de-duplicates events, retries Google Sheets writes, and logs operational details."
+      ]
+    }
+  ],
+  "huggingface": [
+    {
+      "name": "VN_Fashion_data",
+      "url": "https://huggingface.co/datasets/Nhat-Quang/VN_Fashion_data",
+      "note": "Dataset snapshot for OutfitMatch; 5,618 catalog items, Vietnamese fashion/e-commerce tags."
+    },
+    {
+      "name": "OutfitMatch LoRA adapters",
+      "url": "https://huggingface.co/Nhat-Quang",
+      "note": "Public PEFT/LoRA adapters for OutfitMatch stylist experiments on Qwen/Qwen-VL/Gemma variants."
+    }
+  ]
+}

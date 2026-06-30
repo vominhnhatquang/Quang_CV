@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "label": "compile-main",
+      "command": "python",
+      "args": ["-m", "py_compile", "main.py"]
+    }
+  ]
+}
